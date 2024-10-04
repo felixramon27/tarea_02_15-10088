@@ -1,9 +1,9 @@
 # Tarea 02 - Triángulo Equilátero con Colores  
 **Curso:** CI4321 (2024)  
-**Puntuación Total:** 10 puntos
-**Alumno:** Felix Arnos
-**Fecha:** 2024-02-20
-**Carnet:** 15-10088
+**Puntuación Total:** 10 puntos   
+**Alumno:** Felix Arnos   
+**Fecha:** 2024-02-20   
+**Carnet:** 15-10088   
 
 ## Descripción de la Tarea
 El objetivo de esta tarea es desarrollar un programa de manera **individual** para iniciarse en **OpenGL** y **WebGL**. El programa debe mostrar un **triángulo equilátero** en pantalla con los colores **rojo**, **verde**, y **azul**, asignando un color a cada vértice. El fondo debe ser oscuro, pero no negro, con un color como el que se muestra en el ejemplo.
