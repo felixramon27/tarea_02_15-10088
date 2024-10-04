@@ -1,64 +1,70 @@
-Tarea 02 (10 pts)
-CI4321 (2024)
-Realizar un desarrollo individual para comenzar su camino en OpenGL y WebGL.
-Realizar un programa que muestre un triángulo
-equilátero en pantalla con los colores rojo, verde y
-azul; tal que cada vértice tenga un color asignado
-y el fondo sea oscuro, pero no negro, como se
-muestra en el ejemplo. Este programa debe
-realizarse al menos con Three.js y OpenGL.
-Opcionalmente lo puede realizar con otras APIs
-por puntos extra.
-Colores del ejemplo, en hexadecimal: 1b1e2b, ff0000, 00ff00, 0000ff
-Valores relevantes para los vértices: -0.50, 0.50, 0.87
-Consideraciones:
-● Fecha tope de entrega: Lunes 7 de Octubre, 6:00 pm.
-● Formato de nombre del repo: tarea_02_CARNET.git
-● Enviar a: 10-87970@usb.ve con copia a depci-invitado2@usb.ve
-● Asunto: [ci4321] Tarea 02
-● Contenido del email:
-○ Saludo con nombre y carnet.
-○ Enlace a repositorio de GitHub.
-○ Enlace a YouTube mostrando el funcionamiento de cada ejemplo; no
-es necesario hablar si queda claro cada paso para correr.
+# Tarea 02 - Triángulo Equilátero con Colores  
+**Curso:** CI4321 (2024)  
+**Puntuación Total:** 10 puntos
+**Alumno:** Felix Arnos
 
-● El repositorio debe contener un subdirectorio por cada API (Three, OpenGL, etc)
-● Cada subdirectorio debe tener un README con:
-○ Nombre, Carnet y API (sí, aunque sea obvio porque ajá)
-○ Sistema operativo en el que se desarrolló
-○ Lista de dependencias e instrucciones de cómo correrlo
+## Descripción de la Tarea
+El objetivo de esta tarea es desarrollar un programa de manera **individual** para iniciarse en **OpenGL** y **WebGL**. El programa debe mostrar un **triángulo equilátero** en pantalla con los colores **rojo**, **verde**, y **azul**, asignando un color a cada vértice. El fondo debe ser oscuro, pero no negro, con un color como el que se muestra en el ejemplo.
 
-Evaluación:
-● Three.js (5pt)
-○ 1pt estar en el video
-○ 1pt clean code, legibilidad y comentarios relevantes
-○ 3pt que corra y haga lo esperado
-● OpenGL con C/C++ (5pt)
-○ 1pt estar en el video
-○ 1pt clean code, legibilidad y comentarios relevantes
-○ 3pt que corra y haga lo esperado
-● API extra (2pt) - completamente opcional
-○ Debe correr y estar en el video. Todo o nada 😛
+### Requisitos del Triángulo:
+- **Colores de los vértices:**  
+  - Rojo: `#ff0000`  
+  - Verde: `#00ff00`  
+  - Azul: `#0000ff`
+- **Color de fondo:** `#1b1e2b`
+- **Coordenadas de los vértices:** `(-0.50, 0.50, 0.87)`
 
-Algunas ideas en orden ascendente de dificultad tomando en consideración
-verbosidad si deciden tomar el camino de los puntos extra:
-● WebGL2
-● Metal (macOS)
-● DirectX 12 (Windows)
-● Vulkan
+### APIs a Utilizar:
+El desarrollo debe realizarse con **Three.js** y **OpenGL**. También es opcional el uso de otras APIs para obtener puntos extra.
 
-Se recomiendan los siguientes recursos como puntos de partida:
-● Three.js
-https://threejs.org/docs/index.html#manual/en/introduction/Installation
-● OpenGL
-https://en.wikibooks.org/wiki/OpenGL_Programming/Modern_OpenGL_Introd
-uction
+### Evaluación:
+1. **Three.js** (5 pts):
+   - **1 pt** por estar presente en el video.
+   - **1 pt** por un código limpio y bien comentado.
+   - **3 pts** por la correcta ejecución y funcionalidad del programa.
+  
+2. **OpenGL con C/C++** (5 pts):
+   - **1 pt** por estar presente en el video.
+   - **1 pt** por un código limpio y bien comentado.
+   - **3 pts** por la correcta ejecución y funcionalidad del programa.
 
-Pueden utilizar cualquiera de las siguientes bibliotecas para el manejo de ventanas,
-así como entrada y salida:
-● Freeglut
-https://freeglut.sourceforge.net/
-● SDL
-https://libsdl.org/
-● GLFW
-https://www.glfw.org/
+3. **API extra (opcional, 2 pts)**:
+   - La API debe ejecutarse correctamente y aparecer en el video. Es todo o nada.
+
+## Consideraciones
+- **Fecha tope de entrega:** Lunes, 7 de Octubre, a las 6:00 pm.
+- **Formato del repositorio GitHub:** `tarea_02_CARNET.git`
+- **Envío por correo electrónico a:**  
+  - 10-87970@usb.ve  
+  - Con copia a: depci-invitado2@usb.ve
+- **Asunto del correo:** `[ci4321] Tarea 02`
+- **Contenido del correo:**
+  - Saludo con tu **nombre** y **carnet**.
+  - Enlace al **repositorio GitHub**.
+  - Enlace a un **video en YouTube** mostrando el funcionamiento del programa. No es necesario hablar si el video muestra claramente cómo correr el programa.
+
+## Estructura del Repositorio
+- El repositorio debe contener un subdirectorio para cada API utilizada (**Three.js**, **OpenGL**, etc.).
+- Cada subdirectorio debe incluir un archivo `README.md` que contenga la siguiente información:
+  - **Nombre, Carnet y API utilizada.**
+  - **Sistema operativo** en el que se desarrolló el proyecto.
+  - **Lista de dependencias** e instrucciones para ejecutar el programa.
+
+## APIs Extra (opcional)
+Para puntos adicionales, se pueden utilizar otras APIs en lugar de Three.js u OpenGL. Algunas sugerencias en orden creciente de dificultad incluyen:
+- **WebGL2**
+- **Metal** (macOS)
+- **DirectX 12** (Windows)
+- **Vulkan**
+
+## Recursos Recomendados
+### Para empezar con Three.js:
+- [Three.js - Documentación Oficial](https://threejs.org/docs/index.html#manual/en/introduction/Installation)
+
+### Para empezar con OpenGL:
+- [Modern OpenGL - Wikibooks](https://en.wikibooks.org/wiki/OpenGL_Programming/Modern_OpenGL_Introduction)
+
+### Bibliotecas para manejo de ventanas y entradas:
+- [Freeglut](https://freeglut.sourceforge.net/)
+- [SDL](https://libsdl.org/)
+- [GLFW](https://www.glfw.org/)
