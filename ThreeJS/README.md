@@ -74,10 +74,7 @@ Se agregaron los siguientes scripts al archivo package.json para facilitar el de
 ### Correr el proyecto en modo desarrollo:
 
 Para iniciar el servidor de desarrollo, ejecuta:
-
-    ```bash
-    npm run dev
-    ````
+npm run dev
 
 ### Abrir el proyecto en el navegador:
 
