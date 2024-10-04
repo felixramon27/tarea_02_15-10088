@@ -74,9 +74,9 @@ Se agregaron los siguientes scripts al archivo package.json para facilitar el de
 ### Correr el proyecto en modo desarrollo:
 
 Para iniciar el servidor de desarrollo, ejecuta:
-    ```bash
-    npm run dev
-    ```
+  ```bash
+  npm run dev
+  ```
 ### Abrir el proyecto en el navegador:
 
 Abre tu navegador y visita la dirección local que aparece en la terminal (por defecto suele ser http://localhost:5173).
