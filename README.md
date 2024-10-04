@@ -1,6 +1,6 @@
 # Tarea 02 - Triángulo Equilátero con Colores  
 **Curso:** CI4321 (2024)  
-**Puntuación Total:** 10 puntos 
+**Puntuación Total:** 10 puntos
 **Alumno:** Felix Arnos
 
 ## Descripción de la Tarea
