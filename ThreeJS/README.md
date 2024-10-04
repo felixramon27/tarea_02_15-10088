@@ -26,6 +26,7 @@ Luego, instala las dependencias ejecutando los siguientes comandos:
   ```bash
   npm install --save three
   ```
+
 - **Vite**:
 
   ```bash
@@ -60,13 +61,11 @@ npm install --save-dev vite
 
 Se agregaron los siguientes scripts al archivo package.json para facilitar el desarrollo y la ejecución del proyecto:
 
-    ```
     "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
     }
-    ```
 
 - **npm run dev**: Ejecuta el servidor de desarrollo de Vite y abre el proyecto localmente.
 - **npm run build**: Genera la versión optimizada para producción.
