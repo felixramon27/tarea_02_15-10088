@@ -60,7 +60,7 @@ npm install --save-dev vite
 
 Se agregaron los siguientes scripts al archivo package.json para facilitar el desarrollo y la ejecución del proyecto:
 
-    ```json
+    ```
     "scripts": {
     "dev": "vite",
     "build": "vite build",
