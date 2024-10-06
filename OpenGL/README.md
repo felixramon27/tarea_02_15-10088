@@ -1,6 +1,3 @@
-Aquí tienes un archivo `README.md` adaptado para tu proyecto de Computación Gráfica, incluyendo la información que proporcionaste:
-
-```markdown
 # Tarea de Computación Gráfica - Triángulo Equilátero con OpenGL
 
 **Nombre:** Felix Arnos  
@@ -74,4 +71,3 @@ Los colores de fondo y de los vértices están establecidos utilizando los valor
 ### Video de referencia
 
 Todo el proceso de instalación y configuración se realizó siguiendo los pasos de este video: [YouTube Tutorial](https://www.youtube.com/watch?v=GaMTjQouBcM).
-```
